@@ -27,10 +27,12 @@ class Box{
 };
 void callByValue(Box b){
 	b.insertDetails(44.5,55.5,66.5);
+	b.print();
 }
 int main(){
 	Box box (12.5,12.4,12.3);
 	box.print();
+	cout<<endl;
 	callByValue(box);
-	box.print();
+	cout<<endl;
 }
