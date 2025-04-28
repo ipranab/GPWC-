@@ -1,0 +1,17 @@
+State the header file(s) and name of the namespace(s) required to use SFML libary to design game
+programs. Aslo write the compilation and execution commands in Linux-based enviroment.
+
+  Ans- Header files:-
+        #include<Graphics.hpp>
+        #include<Window.hpp>
+        #include<System.hpp>
+
+        Namespace req:- 
+          using namespace sf;
+
+
+        compilation command- 
+          g++ filename.cpp -o outputname -lsfml-graphics -lsfml-window -lsfml-system
+
+          execution command-
+            ./outputname
